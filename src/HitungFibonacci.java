@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,6 +21,16 @@ public class HitungFibonacci {
         public static void main (String [] args){
         String identitas = "KARINA SHAFA AMALIA / XRL5/ 17";
         tampilJudul(identitas);
+        int n = tampilInput();
+        }
+        private static int tampilInput(){
+            Scanner scanner = new Scanner(System.in);
         
-    }
-}
+            System.out.print("Bilangan ke-: ");
+            int n = scanner.nextInt();
+            
+            return n;
+        }
+        
+        }   
+    
