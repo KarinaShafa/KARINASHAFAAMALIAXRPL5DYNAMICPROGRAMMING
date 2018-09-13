@@ -14,6 +14,8 @@ import java.util.Scanner;
  */
 public class HitungFibonacci {
     private static void tampilJudul (String identitas){
+        Scanner scanner = new Scanner(System.in);
+        
         System.out.println("Identitas : "+identitas);
         
         System.out.println("/nHitung Fibonacci");
